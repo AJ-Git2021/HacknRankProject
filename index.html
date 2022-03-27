@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>hello</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Lifestyle Dashboard</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+        <button class="btn btn-danger navbar-btn" onclick="document.getElementById('sound1').play();">Play</button>
+        <audio id="sound1" src="./music/track1.mp3" preload="auto"></audio>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="banner">
+        <div class="calendar">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&src=aWE5cWpoOXI1c2J2NjEzbWRzdWZiYWlxc3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342"
+            width="600"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+        <div class="container">
+          <h2>Calendar</h2>
+          <p>
+            Easy access and first element that one can see to better organise their time
+          </p>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container">
+          <h2>Tasks for the day</h2>
+          <p>This is still under progress... this part will enable you to directly interact with our google to do list and add or create entries in the same</p>
+          <div class="tasklist">
+              <ul style="list-style: none;">
+                <li> Event 1 </li>
+                <li> Event 2 </li>
+                <li> Event 3 </li>
+              </ul> 
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+      <p style="padding-left: 30px;">Made by Atindra Jayakar &COPY;</p>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
