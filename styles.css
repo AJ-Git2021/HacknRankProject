@@ -58,3 +58,21 @@
   text-align: center;
   align-items: right;
 }
+
+.about{
+  min-height: 100vh;
+  font-size: 1.6em;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    url("./images/bg2.jpg") center/cover fixed no-repeat;
+}

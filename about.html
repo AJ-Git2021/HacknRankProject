@@ -24,7 +24,13 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
         </ul>
-        <button class="btn btn-danger navbar-btn">Button</button>
+        <button
+          class="btn btn-danger navbar-btn"
+          onclick="document.getElementById('sound1').play();"
+        >
+          Play
+        </button>
+        <audio id="sound1" src="./music/track1.mp3" preload="auto"></audio>
       </div>
     </nav>
     <div class="about">
@@ -35,10 +41,12 @@
           to have a clean view and idea of their calendar and tasks helping
           improve time management . The site does not contain a lot of
           functionality yet however can be expanded upon by adding calendar
-          entries and tasks using the google apis.
-          Atindra Jayakar
+          entries and tasks using the google apis. Atindra Jayakar
         </p>
       </div>
+    </div>
+    <div class="footer">
+      <p style="padding-left: 30px">Made by Atindra Jayakar &COPY;</p>
     </div>
     <script src="" async defer></script>
   </body>
